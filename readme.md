@@ -31,7 +31,7 @@ It is designed for users who want a **fast, clean, and ready-to-customize Arch s
 cd ~/Arch-Hyprland
 
 #add Permission :
-chmod x+ ./install.sh
+chmod +x ./install.sh
 
 #Run It.. Automaticly Install (U can Cuztumized It)
 ./install.sh
