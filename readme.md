@@ -34,7 +34,7 @@ chmod +x Zidane-X.sh
 ```chmod +x Zidane-X.sh```
 ```./Zidane-X.sh```
 
-# Optional Install Hyprland
+# Optional Install Hyprland (After Install Base System Arch)
 ```cd ~/Arch-Hyprland```
 ```chmod +x install.sh```
 ```./install.sh```
