@@ -17,23 +17,24 @@ This script formats your disk, installs Arch Linux with essential packages, and 
 ## 📥 Installation  
 
 ### 1. From an existing Linux system  
-```bash
+
 git clone https://github.com/USERNAME/ZidaneX-ArchInstaller.git
 cd ZidaneX-ArchInstaller
 chmod +x Zidane-X.sh
 ./Zidane-X.sh
 
 # Install git inside archiso
-pacman -Sy git
+```bash bashpacman -Sy git```
 
 # Clone this repository
-git clone https://github.com/USERNAME/ZidaneX-ArchInstaller.git
-cd ZidaneX-ArchInstaller
+```git clone https://github.com/USERNAME/ZidaneX-ArchInstaller.git```
+```cd ZidaneX-ArchInstaller```
 
 # Run the installer
-chmod +x Zidane-X.sh
-./Zidane-X.sh
+```chmod +x Zidane-X.sh```
+```./Zidane-X.sh```
 
-cd ~/Arch-Hyprland
-chmod +x install.sh
-./install.sh
+# Optional Install Hyprland
+```cd ~/Arch-Hyprland```
+```chmod +x install.sh```
+```./install.sh```
