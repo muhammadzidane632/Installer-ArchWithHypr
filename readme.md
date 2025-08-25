@@ -25,13 +25,14 @@ It is designed for users who want a **fast, clean, and ready-to-customize Arch s
 2. Connect to the internet:
    ```bash
    iwctl    # or use nmcli
-3. In the last If You Want To install Hyprlan Tooo...
+   
+3. In the last If You Want To install Hyprland Tooo...
 
-#Move To Arch-Hyprland Directory
+## Move To Arch-Hyprland Directory
 cd ~/Arch-Hyprland
 
-#add Permission :
+## add Permission :
 chmod +x ./install.sh
 
-#Run It.. Automaticly Install (U can Cuztumized It)
+## Run It.. Automaticly Install (U can Customize It)
 ./install.sh
