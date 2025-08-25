@@ -1,38 +1,39 @@
-# ⚡ Zidane-X Arch Linux Minimal Auto Installer
+# Zidane-X Arch Installer ⚡  
 
-![Arch Linux Logo](https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg)
-
-## 📌 Description
-**Zidane-X Arch Linux Minimal Auto Installer** is a shell script that automates the installation of Arch Linux with minimal manual steps.  
-
-It is designed for users who want a **fast, clean, and ready-to-customize Arch setup**, without going through the hassle of manual partitioning, base system installation, and initial configuration.
+A minimal Arch Linux auto installer by **Zidane-X** – fast, clean, and ready for customization.  
+This script formats your disk, installs Arch Linux with essential packages, and sets up a ready-to-use environment.  
 
 ---
 
-## ✨ Features
-- 🚀 Automated disk partitioning and formatting (with confirmation).  
-- 📦 Base system installation with essential development tools.  
-- 🖥️ Hostname, timezone, locale, and user creation pre-configured.  
-- 🔗 [Arch-Hyprland](https://github.com/JaKooLit/Arch-Hyprland) automatically cloned into the user’s home directory.  
-- 🔒 Sudo enabled for the wheel group.  
-- 🌐 NetworkManager enabled by default.  
+## 🚀 Features
+- Automatic disk partitioning and formatting (**⚠ wipes existing data**).  
+- Installs Arch Linux base system with essential firmware and tools.  
+- Creates a user account.  
+- Clones necessary repositories into `~`.  
+- Easy to extend with your own `.sh` customization.  
 
 ---
 
-## 🛠️ Installation
+## 📥 Installation  
 
-1. Boot into an **Arch Linux live environment**.  
-2. Connect to the internet:
-   ```bash
-   iwctl    # or use nmcli
-   
-3. In the last If You Want To install Hyprland Tooo...
+### 1. From an existing Linux system  
+```bash
+git clone https://github.com/USERNAME/ZidaneX-ArchInstaller.git
+cd ZidaneX-ArchInstaller
+chmod +x Zidane-X.sh
+./Zidane-X.sh
 
-## Move To Arch-Hyprland Directory
+# Install git inside archiso
+pacman -Sy git
+
+# Clone this repository
+git clone https://github.com/USERNAME/ZidaneX-ArchInstaller.git
+cd ZidaneX-ArchInstaller
+
+# Run the installer
+chmod +x Zidane-X.sh
+./Zidane-X.sh
+
 cd ~/Arch-Hyprland
-
-## add Permission :
 chmod +x install.sh
-
-## Run It.. Automaticly Install (U can Customize It)
 ./install.sh
